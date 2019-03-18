@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/frg_activity"
+        android:name="com.example.win7x64.testlandscape.FragmentActivity"
+        android:layout_width="250sp"
+        android:layout_height="match_parent"
+
+        />
+
+    <fragment
+        android:id="@+id/frg_btn"
+        android:name="com.example.win7x64.testlandscape.FragmentBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
